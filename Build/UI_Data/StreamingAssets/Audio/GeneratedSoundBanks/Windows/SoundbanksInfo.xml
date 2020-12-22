@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Work\Wwise\AudioPractice\</ProjectRoot>
+		<SourceFilesRoot>D:\Work\Wwise\AudioPractice\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Work\Wwise\AudioPractice\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Work\Wwise\AudioPractice\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="493466282" Language="SFX">
+			<ShortName>Wind1.wav</ShortName>
+			<Path>SFX\Wind1_D79FB2B7.wem</Path>
+		</File>
+		<File Id="824335606" Language="SFX">
+			<ShortName>Wind2.wav</ShortName>
+			<Path>SFX\Wind2_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX" Hash="84385132">
+			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3460584117" Name="Play_Shot_Gun" ObjectPath="\Events\Default Work Unit\Play_Shot_Gun" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="395941191" Language="SFX">
+							<ShortName>Shot3.wav</ShortName>
+							<Path>SFX\Shot3_10C4C929.wem</Path>
+						</File>
+						<File Id="863556483" Language="SFX">
+							<ShortName>Shot1.wav</ShortName>
+							<Path>SFX\Shot1_10C4C929.wem</Path>
+						</File>
+						<File Id="887004910" Language="SFX">
+							<ShortName>Shot2.wav</ShortName>
+							<Path>SFX\Shot2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3264504464">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="61728499" Name="Character_SideChain" ObjectPath="\Game Parameters\Default Work Unit\Character_SideChain"/>
+				<GameParameter Id="2102502327" Name="SFXVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SFXVolumeCtrl"/>
+				<GameParameter Id="3720083140" Name="VoiceVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\VoiceVolumeCtrl"/>
+				<GameParameter Id="4170688747" Name="SoundVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SoundVolumeCtrl"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="English(US)" Hash="237434867">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>English(US)\UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="493466282" Language="SFX">
+							<ShortName>Wind1.wav</ShortName>
+							<Path>SFX\Wind1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="824335606" Language="SFX">
+							<ShortName>Wind2.wav</ShortName>
+							<Path>SFX\Wind2_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.356667" DurationMax="0.442540">
+					<IncludedMemoryFiles>
+						<File Id="540976457" Language="SFX">
+							<ShortName>Fantozzi-SandR1.wav</ShortName>
+							<Path>SFX\Fantozzi-SandR1_10C4C929.wem</Path>
+						</File>
+						<File Id="793230901" Language="SFX">
+							<ShortName>Fantozzi-StoneL1.wav</ShortName>
+							<Path>SFX\Fantozzi-StoneL1_10C4C929.wem</Path>
+						</File>
+						<File Id="842532311" Language="SFX">
+							<ShortName>Fantozzi-StoneR1.wav</ShortName>
+							<Path>SFX\Fantozzi-StoneR1_10C4C929.wem</Path>
+						</File>
+						<File Id="881590323" Language="SFX">
+							<ShortName>Fantozzi-SandL1.wav</ShortName>
+							<Path>SFX\Fantozzi-SandL1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="0.038186" DurationMax="0.038186">
+					<IncludedMemoryFiles>
+						<File Id="218390844" Language="SFX">
+							<ShortName>Click.wav</ShortName>
+							<Path>SFX\Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1642680936" Name="Play_Voice" ObjectPath="\Events\Default Work Unit\Play_Voice" DurationType="OneShot" DurationMin="4.952880" DurationMax="5.737392">
+					<IncludedMemoryFiles>
+						<File Id="360468430" Language="English(US)">
+							<ShortName>GhostMoan01.wav</ShortName>
+							<Path>Voices\English(US)\GhostMoan01_10C4C929.wem</Path>
+						</File>
+						<File Id="520868219" Language="English(US)">
+							<ShortName>GhostMoan02.wav</ShortName>
+							<Path>Voices\English(US)\GhostMoan02_10C4C929.wem</Path>
+						</File>
+						<File Id="759669251" Language="English(US)">
+							<ShortName>GhostMoan03.wav</ShortName>
+							<Path>Voices\English(US)\GhostMoan03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4122698001" Name="WindVolume" ObjectPath="\Game Parameters\Default Work Unit\WindVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="Chinese" Hash="237434867">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>Chinese\UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="493466282" Language="SFX">
+							<ShortName>Wind1.wav</ShortName>
+							<Path>SFX\Wind1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="824335606" Language="SFX">
+							<ShortName>Wind2.wav</ShortName>
+							<Path>SFX\Wind2_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.356667" DurationMax="0.442540">
+					<IncludedMemoryFiles>
+						<File Id="540976457" Language="SFX">
+							<ShortName>Fantozzi-SandR1.wav</ShortName>
+							<Path>SFX\Fantozzi-SandR1_10C4C929.wem</Path>
+						</File>
+						<File Id="793230901" Language="SFX">
+							<ShortName>Fantozzi-StoneL1.wav</ShortName>
+							<Path>SFX\Fantozzi-StoneL1_10C4C929.wem</Path>
+						</File>
+						<File Id="842532311" Language="SFX">
+							<ShortName>Fantozzi-StoneR1.wav</ShortName>
+							<Path>SFX\Fantozzi-StoneR1_10C4C929.wem</Path>
+						</File>
+						<File Id="881590323" Language="SFX">
+							<ShortName>Fantozzi-SandL1.wav</ShortName>
+							<Path>SFX\Fantozzi-SandL1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="0.038186" DurationMax="0.038186">
+					<IncludedMemoryFiles>
+						<File Id="218390844" Language="SFX">
+							<ShortName>Click.wav</ShortName>
+							<Path>SFX\Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1642680936" Name="Play_Voice" ObjectPath="\Events\Default Work Unit\Play_Voice" DurationType="OneShot" DurationMin="0.750000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="386346364" Language="Chinese">
+							<ShortName>GhostMoan02.wav</ShortName>
+							<Path>Voices\Chinese\GhostMoan02_10C4C929.wem</Path>
+						</File>
+						<File Id="503583458" Language="Chinese">
+							<ShortName>GhostMoan01.wav</ShortName>
+							<Path>Voices\Chinese\GhostMoan01_10C4C929.wem</Path>
+						</File>
+						<File Id="965213253" Language="Chinese">
+							<ShortName>GhostMoan03.wav</ShortName>
+							<Path>Voices\Chinese\GhostMoan03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4122698001" Name="WindVolume" ObjectPath="\Game Parameters\Default Work Unit\WindVolume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

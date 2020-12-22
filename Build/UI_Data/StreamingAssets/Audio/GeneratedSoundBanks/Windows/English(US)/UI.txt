@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	1642680936	Play_Voice			\Default Work Unit\Play_Voice	
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4122698001	WindVolume			\Default Work Unit\WindVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	218390844	UI_Click	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Click		3432
+	360468430	GhostMoan01	D:\Work\Wwise\AudioPractice\.cache\Windows\Voices\English(US)\GhostMoan01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\GhostMoan01		911296
+	520868219	GhostMoan02	D:\Work\Wwise\AudioPractice\.cache\Windows\Voices\English(US)\GhostMoan02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\GhostMoan02		1012140
+	540976457	Fantozzi-SandR1	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Fantozzi-SandR1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Fantozzi-SandR1		71640
+	759669251	GhostMoan03	D:\Work\Wwise\AudioPractice\.cache\Windows\Voices\English(US)\GhostMoan03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\GhostMoan03		873752
+	793230901	Fantozzi-StoneL1	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Fantozzi-StoneL1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Fantozzi-StoneL1		65844
+	842532311	Fantozzi-StoneR1	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Fantozzi-StoneR1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Fantozzi-StoneR1		62980
+	881590323	Fantozzi-SandL1	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Fantozzi-SandL1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Fantozzi-SandL1		78128
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	493466282	Wind1	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Wind1_D79FB2B7.wem	493466282.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind1	
+	824335606	Wind2	D:\Work\Wwise\AudioPractice\.cache\Windows\SFX\Wind2_D79FB2B7.wem	824335606.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind2	
+

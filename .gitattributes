@@ -1,0 +1,5 @@
+Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkSoundEngine filter=lfs diff=lfs merge=lfs -text
+Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkSoundEngine filter=lfs diff=lfs merge=lfs -text
+Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkSoundEngine filter=lfs diff=lfs merge=lfs -text
+Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.pdb filter=lfs diff=lfs merge=lfs -text
+Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.pdb filter=lfs diff=lfs merge=lfs -text
